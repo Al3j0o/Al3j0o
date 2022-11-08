@@ -30,3 +30,4 @@ public class main {
     }
     
 }   
+msg.setText("Hola "+user.getText());

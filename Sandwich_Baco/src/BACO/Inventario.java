@@ -58,6 +58,9 @@ public enum Inventario{
         this.cantidad = cantidad;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Inventario{" + "cantidad=" + cantidad + ", nombre=" + nombre + '}';
+    }
     
 }
